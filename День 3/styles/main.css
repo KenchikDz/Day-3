@@ -1,0 +1,80 @@
+* {
+  padding: 0 auto;
+  margin: auto 0;
+}
+
+@font-face {
+  font-family: "beer";
+  src: url("../fonts/beer\ money.ttf");
+}
+
+@font-face {
+  font-family: "bicubik";
+  src: url("../fonts/Bicubik.OTF");
+}
+
+.head {
+  width: 100%;
+  height: calc(15vh);
+
+  font-family: "beer";
+  background-color: #d22a37;
+}
+
+.head li {
+  justify-content: center;
+  align-items: center;
+  float: left;
+  display: flex;
+}
+
+.head a {
+  margin-left: 1vw;
+  margin-top: 2vh;
+}
+
+a {
+  padding: 1vw;
+  font-size: 4vh;
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  position: relative;
+  width: calc(100vw / 15);
+}
+
+.content {
+  margin: 1vh auto 10vh;
+  width: 100%;
+}
+
+.contentimg {
+  width: calc(100% / 1);
+}
+
+.righter {
+  position: absolute;
+  right: 0;
+  width: 60%;
+}
+
+.lefter {
+    width: 40%;
+margin-left: 4vh;
+  position: absolute;
+  left: 0;
+}
+
+.lefter:hover .darknest{
+ display: block;
+ animation: all 2.5s forwards;
+}
+
+.darknest {
+    display: none;
+    width: 40%;
+    height: 10vh;
+    background-color: black;
+}
